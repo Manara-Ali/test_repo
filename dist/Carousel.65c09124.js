@@ -12322,6 +12322,7 @@ function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; 
 function createCarouselItem(imgSrc, imgAlt, imgId) {
   var template = document.querySelector("#carouselItemTemplate");
   var clone = template.content.firstElementChild.cloneNode(true);
+  var newVariable = "new variable";
   var img = clone.querySelector("img");
   img.src = imgSrc;
   img.alt = imgAlt;
